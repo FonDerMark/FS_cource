@@ -14,12 +14,11 @@ const server = http.createServer(async (req, res) => {
           <title>simple_server</title>
         </head>
         <body>
-          <h1>HTML</h1>
+          <h1>HTML2</h1>
         </body>
       </html>
     `;
 
-        // Отправка HTML клиенту
         res.end(htmlContent);
     } catch (error) {
         console.error('Ошибка:', error.message);
